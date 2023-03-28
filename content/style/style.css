@@ -1,0 +1,134 @@
+body{
+	background-color: lig;
+}
+
+/*Header info*/
+header{
+	width: 95%;
+	height: 6em;
+	margin: 0 auto;
+	padding-top: 1em;
+	border-bottom: 1px solid;
+	display: flex;
+}
+
+.shop-name{
+	font-size: 50px; 
+	font-weight: bold;
+	color: black;
+	text-decoration: none;	
+}
+.shop-name:hover{
+
+	color: black;	
+}
+
+.site-nav{
+	font-size: 45px; 
+	justify-content: space-around;
+	color: grey;
+	margin-left: auto;
+}
+
+.site-nav-category{
+	padding-left: 1em;
+}
+
+a.site-nav-category{
+	color: grey;
+	text-decoration: none;
+}
+
+a.site-nav-category:hover{
+	transition: color 0.7s;
+	color: black;
+	text-decoration: none;
+}
+
+/*Shop info*/
+.shop-nav-category{
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 1px solid;
+
+}
+
+.shop-category-button{
+	text-decoration: none;
+	color: black;
+}
+.shop-category-button:hover{
+	transition: color 0.3s;
+	color: grey;
+
+}
+
+.price{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.buy-button {
+  background-color:black;
+  border-radius: 7px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 16px;
+  transition: 0.2s ;
+
+
+  
+}
+
+.buy-button:hover {
+    background-color: #383838;
+      color: white;
+
+}
+
+.info-button{
+	width: 30px;
+	height: 30px;
+	background-color:black;
+  border-radius: 7px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 16px;
+  transition: 0.2s linear;
+}
+
+.info-button:hover {
+    background-color: #383838;
+      color: white;
+
+}
+
+.card-column{
+	border:1px solid;
+	border-top: none;
+}
+
+
+.show-more-link{
+	transition: 0.2s;
+	font-size: 20px;
+}
+.show-more-link:hover{
+	font-size: 22px;
+
+}
+
+.sign-btn{
+	height: 50px;
+	background-color:black;
+	color: white;
+	margin-bottom: 15px;
+	font-size: 16px;
+	transition: 0.2s ;
+}
+
+.sign-btn:hover {
+    background-color: #383838;
+      color: white;
+
+}
